@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'DarkSouls';
+    src: url(fontes/Alice_in_Wonderland_3.ttf) format(truetype);
+    font-weight: normal;
+}
+
+:root{
+    --cor0: #F2E18D;
+    --cor1: #D9C043;
+    --cor2: #BF9A2C;
+    --cor3: #8C6723;
+    --cor4: #26200B;
+    
+    --fontedestaque: 'DarkSouls', serif;
+    --fontepadrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main p{
+    font-family: var(--fontepadrao);
+    text-align: justify;
+    margin: 10px;
+    text-indent: 22px;
+    line-height: 1.3em;
+}
+
+body{
+   background-color: var(--cor0);
+}
+
+header{
+   padding-top: 10px;
+   text-align: center;
+   background-image: linear-gradient(to bottom, var(--cor3), var(--cor4))
+}
+
+header > h1{
+   color: white;
+   font-family: var(--fontedestaque);
+   font-size: 3em;
+   font-weight: normal;
+   margin: 0px 0px 0px;   
+}
+
+nav{
+    background-color: var(--cor4);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.144);
+}
+
+nav a{
+    color: var(--cor2);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.7s;
+}
+
+nav a:hover{
+    color: var(--cor4);
+    background-color: var(--cor2);
+    
+}
+
+main{
+    min-width: 330px;
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.068);
+    
+}
+
+main h1{
+    
+    font-size: 2em;
+    font-family: var(--fontedestaque);
+    color: var(--cor3);
+}
+
+main h2{
+    font-size: 1.8em;
+    font-family: var(--fontedestaque);
+    color: var(--cor2);
+}
+
+main img{
+    width: 100%;
+}
+
+div.video{
+    margin: 0px -10px 30px -20px;
+    padding: 20px;
+    padding-left: -50px;
+    padding-bottom: 56%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: var(--cor2);
+}
+
+footer strong{
+    font-weight: bolder;
+    color: var(--cor4);    
+}
+
+ul{
+    list-style-position: inside;
+}
+
+.op{
+   list-style-type: '\2705\00A0';
+}
+
+.naoop{
+   list-style-type: '\274C\00A0';
+} 
+
+ul.base{
+    columns: 3;
+}
