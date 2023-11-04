@@ -19,37 +19,62 @@ p{
     font-family: var(--fonte-padrao);
 }
 
-#inicio{
-    padding-top: 100px;
+section{
+    padding-top: 40px;
+    padding-left: 35px; 
 }
 
-.poesia{
-    padding: 60px 0px 50px 60px;
+section p{
+    font-family: var(--fonte-poesia);
+    padding-bottom: 1.4em;
+}
+
+.normal{
     text-align: left;
     font-size: 2.8em;
-    font-family: var(--fonte-poesia);
     line-height: 1.8em;
 }
 
-.transparente{
+.imagem{
+    text-align: left;
+    font-size: 2.8em;
+    line-height: 1.8em;
     color: white;
-    background-color: rgb(61, 61, 61);
+    box-shadow: inset 1px 1px 11px 3px #0000008a;
 }
 
-.conteudo1{
+section.imagem > p{
+    display: inline-block;
+    padding: 60px 0px 7Y0px 35px;
+    padding: 5px;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.404);
+    text-shadow: 3px 3px 7px #000000bf;
+}
+
+#img1{
     background-image: url('imagens/background001.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    height: 100vh;
+    background-attachment: fixed;
+    height: 75vh;
 }
 
-h1{
+#img2{
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 75vh; 
+}
+
+header h1{
+    font-variant: small-caps;
     font-family: var(--fonte-titulo);
-    font-size: 3.5em;
+    font-size: 7em;
     font-weight: bold;
     text-shadow: 5px 7px 5px rgba(99, 98, 98, 0.342);
-    padding-bottom: 30px;
 }
 
 header{
@@ -57,16 +82,20 @@ header{
     color: white;
     text-align: center;
     min-height: 150px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 header a{
+    font-weight: bolder;
     color: white;
     text-decoration: none;
 }
 
 header a:hover{
     text-decoration: underline;
+}
+header p{
+    padding-bottom: 50px;
 }
 
 footer{
