@@ -20,6 +20,16 @@ p{
    font-family: var(--fonte-padrao);
 }
 
+section p{
+   line-height: 1.5em;
+}
+
+section > img{
+   display: block;
+   margin: auto;
+   border: 1px solid black;
+}
+
 table{
    width: 800px;
    height: 400px;
@@ -123,8 +133,12 @@ footer a:hover{
    text-decoration: underline;
 }
 
-td.tabelat{
+.tabelat{
    background-image:linear-gradient(to left, rgb(221, 58, 58), rgb(206, 27, 27));
    font-size: 1.4em;
    color: white;
+}
+
+.controladores{
+   background-image: url();
 }
