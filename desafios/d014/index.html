@@ -9,10 +9,96 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        table{
+            border-collapse: collapse;
+            width: 550px;
+        }
+
+        td,th{
+            border: 1.7px solid black;
+            padding: 10px;
+            text-align: center; 
+            font-size: 1.4em; 
+        }
+
+        th, .numimp{
+            background-color: gray;
+            color: white;
+            font-weight: bolder;
+        }
+
+        .esq{
+            text-align: left;
+        }
         
+        .semititu{
+            background-color: white;
+            color: black;
+        }
     </style>
 </head>
 <body>
-    
+    <table>
+        <thead>
+           <tr>
+               <th rowspan="2" scope="col">Área</th>
+               <th rowspan="2" scope="col">Disciplinas</th>
+               <th colspan="2" scope="colgroup">Notas</th>
+               <th rowspan="2" scope="col">Média</th>
+           </tr>
+           <tr>
+               <th scope="col">Nota 1</th>
+               <th scope="col">Nota 2</th>
+           </tr>
+        </thead>
+        <tbody>
+           <tr>
+               <th class="semititu" rowspan="4" scope="rowgroup">Exatas</th>
+               <td class="esq">Matemática</td>
+               <td>7.0</td>
+               <td>8.0</td>
+               <td>7.5</td>
+           </tr>
+           <tr>
+               <td class="esq">Física</td>
+               <td>2.0</td>
+               <td>5.0</td>
+               <td>3.5</td>
+           </tr>
+           <tr>
+               <td class="esq">Química</td>
+               <td>8.0</td>
+               <td>10</td>
+               <td>9.0</td>
+           </tr>
+           <tr>
+               <td class="esq">Biologia</td>
+               <td>6.0</td>
+               <td>9.0</td>
+               <td>7.5</td>
+           </tr>
+           <tr>
+               <th class="esq" colspan="4" scope="row">Média de Exatas</th>
+               <td class="numimp">6.9</td>
+           </tr>
+           <tr>
+               <th class="semititu" rowspan="2" scope="rowgroup">Humanas</th>
+               <td class="esq">História</td>
+               <td>8.0</td>
+               <td>9.0</td>
+               <td>8.5</td>
+           </tr>
+           <tr>
+               <td class="esq">Geografia</td>
+               <td>10</td>
+               <td>9.5</td>
+               <td>9.75</td>
+           </tr>
+           <tr>
+               <th class="esq" colspan="4" scope="row">Média de Humanas</th>
+               <td class="numimp">9.12</td>
+           </tr>
+        </tbody>
+    </table>
 </body>
 </html>
