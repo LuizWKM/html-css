@@ -36,7 +36,7 @@ table{
    border-collapse: collapse;
 }
 
-td{
+th, td{
    border: 1px solid black;
    padding: 8px;
    text-align: center;
@@ -141,4 +141,8 @@ footer a:hover{
 
 .controladores{
    background-image: url();
+}
+
+div#container{
+   overflow-x: auto;
 }
