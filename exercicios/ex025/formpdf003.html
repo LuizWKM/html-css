@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on" oninput="itot.innerHTML = Number(ipreco.value) * Number(iquan.value)">
+        <p>
+            <label for="iprod">Produto:</label>
+            <input type="text" name="prod" id="iprod">
+        </p>
+        <p>
+            <label for="ipreco">Preço R$</label>
+            <input type="number" name="preco" id="ipreco" step="0.01">
+        </p>
+        <p>
+            <label for="iquan">Quantidade:</label>
+            <input type="number" name="quan" id="iquan" >
+        </p>
+        <p>
+            <label for="itot">Total: R$</label>
+            <output name="tot" id="itot">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
