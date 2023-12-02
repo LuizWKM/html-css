@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="off">
+        <p>
+            <label for="imodel">Modelo do celular:</label>
+            <select name="model" id="imodel" required>
+                <option value="">Escolha...</option>
+                <optgroup label="Apple">
+                    <option value="AIP1132">iPhone 11 32GB</option>
+                    <option value="AIP11P64">iPhone 11 Pro 64GB</option>
+                    <option value="AIP11PM256">iPhone 11 Pro Max 256GB</option>
+                </optgroup>
+                <optgroup label="Samsung">
+                    <option value="SGXYS10">Galaxy S10 Lite</option>
+                    <option value="SGXYS20U128">Galaxy S20 Ultra 128GB</option>
+                    <option value="SGXYN10256">Galaxy Note10 256GB</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iespec">Especificações técnicas:</label><br>
+            <textarea name="espec" id="iespec" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="lstprof" required>
+            <datalist id="lstprof">
+                <optgroup label="Negócios">
+                    <option value="Administrador"></option>
+                    <option value="Contabilista"></option>
+                    <option value="Gestor de RH"></option>
+                </optgroup>
+                <optgroup label="Artes e Design">
+                    <option value="Animador"></option>
+                    <option value="Ator"></option>
+                    <option value="Fotógrafo"></option>
+                </optgroup>
+                <optgroup label="Ciências Exatas">
+                    <option value="Analista de Sistemas"></option>
+                    <option value="Estatístico"></option>
+                    <option value="Matemático"></option>
+                </optgroup>
+                <optgroup label="Ciências Humanas">
+                    <option value="Advogado"></option>
+                    <option value="Linguista"></option>
+                    <option value="Professor"></option>
+                </optgroup>
+            </datalist>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
