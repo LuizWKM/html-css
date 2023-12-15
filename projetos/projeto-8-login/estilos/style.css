@@ -5,3 +5,46 @@
     margin: 0px;
     padding: 0px;
 }
+
+html {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #7746F0;
+}
+
+main {
+    background-color: white;
+    position: relative;
+    border: solid 1px black;
+    border-radius: 30px;
+    height: 400px;
+    width: 260px;
+    margin: auto;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.6em;
+    padding: 10px;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+div#tudo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#ltela {
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

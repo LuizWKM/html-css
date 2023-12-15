@@ -8,23 +8,27 @@
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    <main>
-        <h1>Login</h1>
-        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-        <form action="cadastro.php" method="post" autocomplete="on">
-            <p>
-                <label for="ilogin"><i class="material-icons">login</i></label>
-                <input type="email" name="login" id="ilogin" required>
-            </p>
-            <p>
-                <label for="isenha"><i class="material-icons">password</i></label>
-                <input type="password" name="senha" id="isenha" required minlenght="8">
-            </p>
-            <p>
-                <input type="submit" value="Entrar">
-                <a href="esqueci.html">Esqueci a senha <i class="material-icons">email</i></a>
-            </p>
-        </form>
-    </main>
+    <div id="tudo">
+        <main>
+            <div id="ltela">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="cadastro.php" method="post" autocomplete="on">
+                    <p>
+                        <label for="ilogin"><i class="material-icons">login</i></label>
+                        <input type="email" name="login" id="ilogin" required autocomplete="email">
+                    </p>
+                    <p>
+                        <label for="isenha"><i class="material-icons">password</i></label>
+                        <input type="password" name="senha" id="isenha" required minlenght="8">
+                    </p>
+                    <p>
+                        <input type="submit" value="Entrar">
+                        <a href="esqueci.html">Esqueci a senha<i class="material-icons">email</i></a>
+                    </p>
+                </form>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
