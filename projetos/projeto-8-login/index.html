@@ -14,17 +14,17 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="cadastro.php" method="post" autocomplete="on">
-                    <p>
-                        <label for="ilogin"><i class="material-icons">login</i></label>
-                        <input type="email" name="login" id="ilogin" required autocomplete="email">
+                    <p class="dados">
+                        <label for="ilogin"><i class="material-icons">login</i>
+                        <input type="email" name="login" id="ilogin" required autocomplete="email" placeholder="seu e-mail"></label>
+                    </p>
+                    <p class="dados">
+                        <label for="isenha"><i class="material-icons">password</i>
+                        <input type="password" name="senha" id="isenha" required minlenght="8" placeholder="sua senha"></label>
                     </p>
                     <p>
-                        <label for="isenha"><i class="material-icons">password</i></label>
-                        <input type="password" name="senha" id="isenha" required minlenght="8">
-                    </p>
-                    <p>
-                        <input type="submit" value="Entrar">
-                        <a href="esqueci.html">Esqueci a senha<i class="material-icons">email</i></a>
+                        <input type="submit" value="Entrar" id="entrar">
+                        <a href="esqueci.html" id="esqueci">Esqueci a senha<i class="material-icons">email</i></a>
                     </p>
                 </form>
             </div>
