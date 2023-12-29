@@ -4,30 +4,31 @@
     
     main{
         position: relative;
-        width: 89.4vw;
-        height: 32.4vh;
+        width: 80vw;
+        height: 300px;
+        border-radius: 20px;
     }
     
     input#entrar{
-        width: 60.4vw;
-        height: 3.4vh;
+        width: 53.9vw;
+        height: 36px;
     }
 
     a#esqueci {
-        width: 60.4vw;
-        height: 2.5vh;
+        width: 53.7vw;
+        height: 25px;
     
     }
 
     div#itela{
-        width: 27.1vw;
-        height: 32.4vh;
-        border-radius: 30px 0px 0px 30px; 
+        width: 24vw;
+        height: 300px;
+        border-radius: 20px 0px 0px 20px; 
     }
 
     div#ltela{
-        height: 30vh;
-        width: 60vw;
+        width: 54vw;
+        height: 295px;
         position: absolute;
         left: 65%;
         top: 50%;
@@ -40,11 +41,14 @@
     }
 
     p.dados {
-        width: 60vw;
+        width: 53.5vw;
+        border-radius: 5px;
     }
     
     p.dados input{
-        width: 55vw;
-        height: 3.8vh; 
+        border-radius: 10px;
+        width: 49vw;
+        height: 40px;
+        border: 0px;
     }
 }

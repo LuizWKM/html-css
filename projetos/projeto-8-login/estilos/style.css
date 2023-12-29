@@ -32,6 +32,7 @@ main {
 }
 
 h1 {
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-size: 1.6em;
     padding: 10px;
@@ -107,8 +108,8 @@ div#ltela > p {
 }
 
 p.dados {
-    background-color: var(--cor04);
-    padding: 1px 0px 1px 3px;
+    background-color: #1d9103d5;
+    padding: 3px 0px 3px 3px;
     border-radius: 10px;
     margin-top: 10px;
     width: 230px;
