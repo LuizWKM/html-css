@@ -1,11 +1,14 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Ubuntu:wght@700&display=swap');
+
 :root {
     --cor01: #00f531;
     --cor02: #00F5D6;
     --cor03: #00f583;
     --cor04: #2df500d5;
-    --cor05: #00c4f5;   
+    --cor05: #00c4f5;
+    --fontetitulo: 'Ubuntu', sans-serif;   
 }
 
 * {
@@ -32,10 +35,14 @@ main {
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--fontetitulo);
     text-align: center;
     font-size: 1.6em;
     padding: 10px;
+}
+
+i {
+   width: 25px;
 }
 
 input#entrar {
@@ -95,7 +102,7 @@ div#itela {
 }
 
 div#ltela {
-    width: 95%;
+    width: 92%;
     position: absolute;
     left: 50%;
     top: 70%;
