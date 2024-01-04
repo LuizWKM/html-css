@@ -47,12 +47,49 @@
     
     p.dados input{
         border-radius: 10px;
-        width: 49vw;
+        width: 48.2vw;
         height: 40px;
         border: 0px;
     }
 }
 
 @media screen and (min-width: 992px) {
+    main{
+        position: relative;
+        width: 950px;
+        height: 350px;
+        border-radius: 20px;
+    }
     
+    input#entrar{
+        width: 53.9vw;
+        height: 36px;
+    }
+
+    a#esqueci {
+        width: 53.7vw;
+        height: 25px;
+    
+    }
+
+    div#itela{
+        position: absolute;
+        width: 475px;
+        height: 350px;
+        border-radius: 0px 20px 20px 0px;
+        
+        left: 70%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    div#ltela{
+        width: 54vw;
+        height: 295px;
+        position: absolute;
+        left: 65%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
 }

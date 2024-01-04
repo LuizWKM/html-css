@@ -116,7 +116,7 @@ div#ltela > p {
 
 p.dados {
     background-color: #1d9103d5;
-    padding: 3px 0px 3px 3px;
+    padding: 0.3vh 0.5px 0.3vh 0.3vw;
     border-radius: 10px;
     margin-top: 10px;
     width: 230px;
@@ -126,7 +126,7 @@ p.dados input {
     width: 180px;
     height: 30px;
     border-radius: 20px;
-    padding-left: 5px;
+    padding-right: 0.3vw;
     background-color: var(--cor02);
     color: gray;
 }
