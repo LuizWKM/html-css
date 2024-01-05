@@ -131,11 +131,15 @@ p.dados input {
     color: gray;
 }
 
+p.dados input::placeholder {
+    padding-left: 6px;
+}
+
 p.dados input:focus {
     background-color: white;
 }
 
-p.dados label{
+p.dados label {
     text-align: center;
     
 }
