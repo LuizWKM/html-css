@@ -62,8 +62,6 @@
         border-radius: 20px;
     }
 
-
-    
     input#entrar{
         width: 460px;
         height: 36px;
@@ -108,7 +106,7 @@
     div#ltela > p {
         font-size: 0.95em;
         line-height: 1.5em;
-        padding-bottom: 15px  
+        padding-bottom: 15px;  
     }
 
     p.dados {
@@ -121,5 +119,6 @@
         width: 413.8px;
         height: 35px;
         border: 0px;
+        padding-right: 0px;
     }
 }
